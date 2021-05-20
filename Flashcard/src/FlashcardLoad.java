@@ -17,6 +17,7 @@ public class FlashcardLoad extends JFrame {
     private JButton playButton;
     private JButton flipButton;
     private Main main;
+    
     String frontText;
     String backText;
     int currentIndex = 0;
@@ -45,9 +46,9 @@ public class FlashcardLoad extends JFrame {
         goForwardButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                onFrontSide = true; // Set true to be sure card always faces the front when card is changed.
+                onFrontSide = true; // Set true to be sure card always faces the front when card goes to previous or next card.
                 try {
-                    int amountOfFlashcards = getWordsFromFile().size() -1; //Max size of the list at that moment
+                    int amountOfFlashcards = getWordsFromFile().size() -1; // Max size of the list of flashcards at that moment.
                     if (currentIndex == amountOfFlashcards) {
                         currentIndex = 0;
                         setFrontCard();
@@ -103,12 +104,9 @@ public class FlashcardLoad extends JFrame {
 
     private List getWordsFromFile() throws IOException {
         List<String> words = new ArrayList<>();
-        File file = new File("Flashcard.txt"); //Keep pathname file closed when program is running.
-        //Issue when file has nothing in it. [ArrayIndexOutOfBoundsException]
-        //if (file.length() > 0) {
+        File file = new File("Flashcard.txt"); // [!] Keep pathname file closed when program is running.
         for (String line : Files.readAllLines(Paths.get("Flashcard.txt"))) {
             words.add(line);
-            // }
         }
         return words;
     }

@@ -1,0 +1,8 @@
+Hola:Hello
+Comprar:To buy
+Comer:To eat
+Hablar:To talk
+Aprender:To learn
+Escribir:To write
+La Comida:The food
+rer:err

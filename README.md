@@ -3,6 +3,7 @@
 * [Current Features](#current-features)
 * [Features to come](#in-progress)
 * [Tools](#tools)
+* [Contributions](#contributions)
 
 # <a name="flashcard"></a> Flashcard
 > This flashcard application takes advantage of the Java Swing library.
@@ -26,3 +27,6 @@ It was created to develop a solution to a problem that I had run into: You go th
 
 # <a name="tools"></a> Tools
 * Java
+
+# <a name="contributions"></a> Contributions
+Feel free to submit pull requests, create issues or spread the word.

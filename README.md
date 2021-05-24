@@ -15,7 +15,7 @@ It was created to develop a solution to a problem that I had run into: You go th
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/m8XBSvh/FLashcard-Pic2.png" alt="FLashcard_Pic2" border="0"></a>
 
 # <a name="current-features"></a> Current Features
- * Generate a flashcard by typing in text for the front and back.
+ * Generate a flashcard by typing in text for the front and back of the flashcard.
  * Load the flashcard(s) created previously for review.
  * Review the flashcard(s) by moving to the next card or by flipping.
 

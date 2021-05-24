@@ -1,7 +1,7 @@
 # Table of Contents
 * [Flashcard](#flashcard)
 * [Current Features](#current-features)
-* [Features in progress](#in-progress)
+* [Features to come](#in-progress)
 * [Tools](#tools)
 
 # <a name="flashcard"></a> Flashcard
@@ -19,7 +19,7 @@ It was created to develop a solution to a problem that I had run into: You go th
  * Load the flashcard(s) created previously for review.
  * Review the flashcard(s) by moving to the next card or by flipping.
 
-# <a name="in-progress"></a> Features in progress
+# <a name="in-progress"></a> Features to come
 * A play button for a game-like review session.
 * Previewing previous created flashcard decks.
 * Gui upgrade.

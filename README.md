@@ -1,7 +1,6 @@
 # Table of Contents
 * [Flashcard](#flashcard)
 * [Current Features](#current-features)
-* [Features to come](#in-progress)
 * [Tools](#tools)
 * [Contributions](#contributions)
 
@@ -19,11 +18,6 @@ It was created to develop a solution to a problem that I had run into: You go th
  * Generate a flashcard by typing in text for the front and back of the flashcard.
  * Load the flashcard(s) created previously for review.
  * Review the flashcard(s) by moving to the next card or by flipping.
-
-# <a name="in-progress"></a> Features to come
-* Generate a play window for a game-like review session.
-* Preview previous created flashcard decks.
-* Graphical user interface upgrade.
 
 # <a name="tools"></a> Tools
 * Java

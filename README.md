@@ -21,9 +21,9 @@ It was created to develop a solution to a problem that I had run into: You go th
  * Review the flashcard(s) by moving to the next card or by flipping.
 
 # <a name="in-progress"></a> Features to come
-* A play button for a game-like review session.
-* Previewing previous created flashcard decks.
-* Gui upgrade.
+* Generate a play window for a game-like review session.
+* Preview previous created flashcard decks.
+* Graphical user interface upgrade.
 
 # <a name="tools"></a> Tools
 * Java

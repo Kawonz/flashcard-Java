@@ -97,11 +97,8 @@ public class FlashcardLoad extends JFrame {
     private List getWordsFromFile() throws IOException {
         List<String> words = new ArrayList<>();
         File file = new File("Flashcard.txt"); //Keep pathname file closed when program is running.
-        //Issue when file has nothing in it. [ArrayIndexOutOfBoundsException]
-        //if (file.length() > 0) {
         for (String line : Files.readAllLines(Paths.get("Flashcard.txt"))) {
             words.add(line);
-            // }
         }
         return words;
     }

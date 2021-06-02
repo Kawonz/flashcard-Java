@@ -7,7 +7,7 @@
 # <a name="flashcard"></a> Flashcard
 > This flashcard application takes advantage of the Java Swing library.
 <br><br>
-It was created to develop a solution to a problem that I had run into: You go through the hassle of creating paper flashcards, but end up either not using them or throwing them away. 
+It was created to solve a problem that I have seen. A lot of my peers go through the hassle of creating paper flashcards, but end up either not using them or throwing them away. 
 > <hr>
 *Please note that this project is in development and is subject to change.*
 

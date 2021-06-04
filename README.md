@@ -20,7 +20,7 @@ It was created to solve a problem that I have seen. A lot of my peers go through
  * Review the flashcard(s) by moving to the next card or by flipping.
 
 # <a name="tools"></a> Tools
-* Java
+ <a href="https://github.com/Kawonz/flashcard"><img src="https://forthebadge.com/images/badges/made-with-java.svg"></a>
 
 # <a name="contributions"></a> Contributions
 Feel free to submit pull requests, create issues or spread the word.
